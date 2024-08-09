@@ -1,0 +1,13 @@
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\bin\Debug\net6.0\TechsysLog.Infra.deps.json
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\bin\Debug\net6.0\TechsysLog.Infra.dll
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\bin\Debug\net6.0\TechsysLog.Infra.pdb
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.csproj.AssemblyReference.cache
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\Sentry.Attributes.cs
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.AssemblyInfoInputs.cache
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.AssemblyInfo.cs
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.csproj.CoreCompileInputs.cache
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.dll
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\refint\TechsysLog.Infra.dll
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\TechsysLog.Infra.pdb
+C:\codigoFonte\TechsysLogApi\TechsysLog\TechsysLog.Infra\obj\Debug\net6.0\ref\TechsysLog.Infra.dll

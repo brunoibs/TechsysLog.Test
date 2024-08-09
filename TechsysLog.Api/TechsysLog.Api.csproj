@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.32" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="RestSharp" Version="111.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechsysLog.App\TechsysLog.App.csproj" />
+    <ProjectReference Include="..\TechsysLog.DI\TechsysLog.DI.csproj" />
+    <ProjectReference Include="..\TechsysLog.Domain\TechsysLog.Domain.csproj" />
+    <ProjectReference Include="..\TechsysLog.Infra\TechsysLog.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

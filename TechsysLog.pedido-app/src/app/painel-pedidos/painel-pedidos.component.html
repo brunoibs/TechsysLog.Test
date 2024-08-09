@@ -1,0 +1,46 @@
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <h1>Painel de Pedidos</h1>
+        <div class="d-flex justify-content-between">
+          <a routerLink="/cadastro-pedido"><button class="btn btn-primary btn-block" type="button">Novo Pedido</button></a>
+          <a routerLink="/login"><button class="btn btn-secondary btn-block " type="button">Sair</button></a>
+        </div>
+        <div class="d-flex justify-content-between">
+          <label class="form-control" for="statusSelect">Filtro por Status</label>
+          <select class="form-control" id="statusSelect" (change)="atualizarLista($event)">
+            <option value="">Todos</option>
+            <option *ngFor="let status of statusList" [value]="status.value">{{ status.label }}</option>
+          </select>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Descrição</th>
+              <th>Valor</th>
+              <th>Status</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let pedido of pedidos">
+              <td>{{ pedido.id }}</td>
+              <td>{{ pedido.descricao }}</td>
+              <td>{{ pedido.valor | currency:'BRL' }}</td>
+              <td>{{ pedido.statusPedidoTexto }}</td>
+              <td>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-success btn-block" (click)="marcarEntregue(pedido.id)" type="button">Entregue</button>
+                  <button class="btn btn-danger btn-block" (click)="cancelarEntrega(pedido.id)" type="button">Cancelar</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+

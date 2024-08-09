@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QEC28HckvxUwzYbYMtGumL7uc0XruN3FmRJRRQxBMP0=",
+  "Source": "TechsysLog.Api",
+  "BasePath": "_content/TechsysLog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
